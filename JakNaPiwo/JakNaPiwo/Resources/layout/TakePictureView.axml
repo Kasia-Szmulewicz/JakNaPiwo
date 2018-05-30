@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Dodaj zdjęcie!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/takePictureImageView"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal" />
+    <Button
+        android:text="Uruchom aparat!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/takePictureButton"
+        android:gravity="center_horizontal" />
+    <Button
+        android:text="Zapisz "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/savePictureButton"
+        android:gravity="center_horizontal" />
+</LinearLayout>

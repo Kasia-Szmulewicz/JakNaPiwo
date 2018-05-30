@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">JakNaPiwo</string>
+  <string-array name="BeerType">
+    <item>Ale</item>
+    <item>American Ale</item>
+    <item>English Brown Ale</item>
+    <item>Kożlak</item>
+    <item>Lager</item>
+    <item>Pale Ale</item>
+    <item>Pilzner</item>
+    <item>Porter</item>
+    <item>Pszeniczne</item>
+    <item>Stout</item>
+    <item>Inne</item>
+ </string-array>
+ </resources>
